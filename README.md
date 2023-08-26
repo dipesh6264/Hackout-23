@@ -1,15 +1,24 @@
-# Mumble2
-A real time messaging & video calling. Youtube tutorial will be upload in the comming days.
+# Video-chat-v1
 
-Live Demo: https://www.mumble2.dev/
+Video-chat-v1 is a video chat app that makes it easy to groups up with people you want to meet
 
-# Installation
-* 1 - clone repo https://github.com/divanov11/mumble2
-* 2 - Create an account on agora.io and create an app to generate an APP ID
-* 3 - Update APP ID, Temp Token and Channel Name in room_rtc.js
-```javascript
-let APP_ID = "YOU-APP-ID"
-```
+![IMG](./video-chat.png)
 
+Check out the live demo: https://video-chat-app-v1.herokuapp.com/
 
-<img src="./images/preview.png">  
+An article I wrote which explains how I build this: https://bit.ly/3wh0gyR
+
+This app is build using NodeJS, Socket.io, and Peerjs(WebRTC)
+
+## How to run the project?
+
+1. Clone this repository in your local system.
+2. Open the command prompt from your project directory and run the command `npm install`.
+3. Open the command prompt from your project directory and run the command `npm start`.
+4. Go to your browser and type `http://127.0.0.1:3030/` in the address bar.
+5. Hurray! That's it.
+
+### ToDo
+
+- [ ] - Recreate the Front-end with React.
+

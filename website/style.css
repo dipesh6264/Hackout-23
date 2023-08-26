@@ -1,0 +1,15 @@
+body{
+    background: linear-gradient(to bottom left, rgb(0, 3, 5)40%, rgb(13, 84, 126) 100%);
+}
+#event{
+    display: flex !important; 
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: space-around !important;
+}
+.heading{
+    text-align: center;
+    padding: 30px;
+    color: white;
+
+}
