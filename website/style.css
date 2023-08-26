@@ -13,3 +13,10 @@ body{
     color: white;
 
 }
+
+nav{
+    background: linear-gradient(to bottom left, rgb(1, 47, 73) 40%, rgb(247, 244, 244) 100%);
+   margin-left: -25px;
+   margin-right: -25px;
+    margin-top: -15px;
+}
